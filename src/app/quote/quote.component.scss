@@ -1,0 +1,42 @@
+.quote-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .quote {
+    position: relative;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px auto; 
+    background-color: white;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.4;
+    color: blue;
+    max-width: 700px;
+  }
+  
+  .character-name {
+    position: absolute;
+    bottom: 1px; 
+    right: 10px; 
+    font-size: 14px;
+    font-style: italic;
+    color: purple;
+    margin-top: 1em; 
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  

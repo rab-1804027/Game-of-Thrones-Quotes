@@ -1,0 +1,16 @@
+<div class="quote-container">
+    <h1>Game of Thrones Quotes</h1>
+    <label for="quoteCount">Enter the number of quotes:</label>
+    <input
+    type="number"
+    id="quoteCount"
+    [(ngModel)]="quoteCount"
+    name="quoteCount"
+    />
+    <button (click)="getQuotes()">Get Quotes</button>
+    <div class="quote" *ngFor="let quote of quotes">
+      <p>{{ quote.sentence }}</p>
+      <p class="character-name">- {{ quote.character.name }}</p>
+    </div>
+  </div>
+  
